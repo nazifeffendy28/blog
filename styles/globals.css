@@ -3,15 +3,26 @@
 @tailwind utilities;
 @tailwind variants;
 
+:root {
+  --color-gradient-1: #aa2bff; /* Pastel Pink */
+  --color-gradient-2: #8a9cff; /* Pastel Purple */
+  --color-gradient-3: #9aecff; /* Lavender */
+}
+
+.bg-primary-hover {
+  background-color: #5f5ec5;
+}
+
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-primary);
+  font-family: 'Inter', sans-serif;
 }
 
 body {
-  font-family: var(--font-secondary);
+  font-family: 'Inter', sans-serif;
 }
